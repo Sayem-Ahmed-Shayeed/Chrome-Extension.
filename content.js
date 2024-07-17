@@ -1,6 +1,6 @@
 chrome.runtime.onInstalled.addListener(() => {
   chrome.contextMenus.create({
-    id: "translateToBangla",
+    id: "Translate_To_Your_Language",
     title: "Translate Boss : UwU",
     contexts: ["selection"]
   });
