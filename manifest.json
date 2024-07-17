@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Translate to Bangla",
-  "version": "1.0",
+  "name": "Translate Boss",
+  "version": "2.0",
   "description": "Translate selected text from English to Bangla using Google Translate.",
   "permissions": ["contextMenus", "activeTab", "scripting"],
   "background": {
