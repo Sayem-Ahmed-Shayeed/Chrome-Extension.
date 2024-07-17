@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Translate to Bangla",
+  "version": "1.0",
+  "description": "Translate selected text from English to Bangla using Google Translate.",
+  "permissions": ["contextMenus", "activeTab", "scripting"],
+  "background": {
+    "service_worker": "content.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
